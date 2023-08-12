@@ -8,3 +8,6 @@ if(window.innerWidth < 592){
     mainDiv.style.gridTemplateColumns = '20rem'
     btns.style.gridTemplateColumns = '20rem'
 }
+if(window.innerWidth > 636){
+    body.style.height = '100vh'
+}
