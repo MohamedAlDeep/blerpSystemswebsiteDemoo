@@ -13,8 +13,11 @@
     background-color: white;
     color: hsl(241deg 59% 64%);
 }
-html{
-    background-image: linear-gradient(
+
+
+body{
+        /* GRADIENT */
+        background-image: linear-gradient(
             45deg,
             hsl(240deg 49% 49%) 0%,
             hsl(240deg 48% 51%) 6%,
@@ -38,14 +41,9 @@ html{
           );
               /* background-repeat: no-repeat; */
               /* /// */
-   height: 100vh;          
+   /* height: 100vh;          
     width:100% ;
-}
-
-body{
-        /* GRADIENT */
-        
-   
+    */
     margin: 0;
     padding: 0;
     
