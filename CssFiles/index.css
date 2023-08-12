@@ -53,7 +53,7 @@ body{
 .nav{
     display: inline-flex;
     box-shadow: 3ch;
-    
+    margin-bottom: 2rem;
 }
 h1{
     font-family: 'EB Garamond', serif;
@@ -74,7 +74,14 @@ h3{
     margin: 2rem;
 }
 .buttons{
-    margin: 2rem;   
+    margin: 0;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, 30em);
+
+    border-radius: 0.5rem;
+    margin: 2rem;
+    justify-content: center;
 }
 button{
     margin: 1.4rem;
@@ -83,19 +90,34 @@ button{
     color: hsl(241deg 59% 64%);
     border: rgb(155, 155, 248);
     font-family: 'EB Garamond', serif;
-    font-size: 1.2rem;
+    font-size: 150%;
     box-shadow: 2;
 }
 button:hover{
     background-color: rgb(155, 155, 248);
+    color: white;
 }
 .main-grid{
-    position: relative;
+    margin: 0;
     display: grid;
-    grid-template-columns: 40% 40%;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, 30em);
+
+    border-radius: 0.5rem;
+    margin: 2rem;
+    justify-content: center;
     
 }
 img{
     width: 300px;
     margin: 2rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: 900;
+    color: rgb(155, 155, 248);
 }
