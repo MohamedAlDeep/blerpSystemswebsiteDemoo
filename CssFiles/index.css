@@ -50,30 +50,55 @@ body{
     color: white;
     max-width: 1400px;
     margin: auto;
+
+    
 }
 .nav{
-    display: inline-flex;
+    
     box-shadow: 3ch;
     margin-bottom: 2rem;
 }
 h1{
     font-family: 'EB Garamond', serif;
     font-size: 3rem;
+    
+    
 }
 p{
     font-family: 'EB Garamond', serif;
     font-weight: 400;
-    font-size: 1.2rem
+    font-size: 1.2rem;
+   
 }
 h3{
     margin: 2rem;
     font-family: 'EB Garamond', serif;
     font-weight: 800;
+    
 }
 
 .main-div{
     margin: 2rem;
+    animation-name: fade;
+    animation-duration: 2s;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
+@keyframes fade{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+@keyframes ToRight{
+    from{
+        width: 0rem;
+    }to{
+        width: 60rem
+    }
+}
+
 .buttons{
     margin: 0;
     display: grid;
@@ -83,6 +108,11 @@ h3{
     border-radius: 0.5rem;
     margin: 2rem;
     justify-content: center;
+
+    /* animation-name: ToRight;
+    animation-duration: 2s; */
+
+   
 }
 button{
     margin: 1.4rem;
@@ -133,6 +163,10 @@ button:hover{
 img{
     width: 300px;
     margin: 2rem;
+    animation-name: fade;
+    animation-duration: 2s;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;

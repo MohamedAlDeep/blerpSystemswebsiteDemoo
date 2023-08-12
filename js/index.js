@@ -1,13 +1,10 @@
-let mainDiv = document.getElementById('grid')
-let btns = document.getElementById('btns')
 let body = document.getElementById('bdy')
-let btn1 = document.getElementById('btn1')
-let btn2 = document.getElementById('btn2')
-
-// if(window.innerWidth < 592){
-//     mainDiv.style.gridTemplateColumns = '20rem'
-//     btns.style.gridTemplateColumns = '20rem'
-// }
-if(window.innerWidth > 636){
+let nav = document.getElementById('nav')
+if(window.innerWidth > 500){
     body.style.height = '100vh'
+    nav.style.display = 'inline-flex'
+}
+
+if(window.innerWidth < 500){ 
+    nav.style.display = 'inline'
 }

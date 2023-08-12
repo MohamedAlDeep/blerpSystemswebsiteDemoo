@@ -1,8 +1,6 @@
 @media only screen and (max-width: 500px) {
     /* .nav{
-        display: grid;
-        grid-template-columns: 4rem;
-        grid-template-rows: 5rem 5rem;
+        display: inline;
     } */
     .buttons{
         position: relative;
