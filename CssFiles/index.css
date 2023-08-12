@@ -54,7 +54,8 @@ body{
     
 }
 .nav{
-    
+    animation-name: toleft;
+    animation-duration: 2s;
     box-shadow: 3ch;
     margin-bottom: 2rem;
 }
@@ -91,11 +92,12 @@ h3{
         opacity: 1;
     }
 }
-@keyframes ToRight{
+@keyframes toleft{
     from{
-        width: 0rem;
-    }to{
-        width: 60rem
+        width: 0%;
+    }
+    to{
+        width: 100%;
     }
 }
 
@@ -109,14 +111,11 @@ h3{
     margin: 2rem;
     justify-content: center;
 
-    /* animation-name: ToRight;
-    animation-duration: 2s; */
-
    
 }
 button{
     margin: 1.4rem;
-    background-color: white;;
+     
     border-radius: 3px;
     color: hsl(241deg 59% 64%);
     border: rgb(155, 155, 248);
@@ -176,4 +175,7 @@ a:hover{
     text-decoration: underline;
     font-weight: 900;
     color: rgb(155, 155, 248);
+}
+#menu-btn{
+    font-size: 2rem;
 }

@@ -1,10 +1,31 @@
 let body = document.getElementById('bdy')
 let nav = document.getElementById('nav')
-if(window.innerWidth > 500){
+let menuBtn = document.getElementById('menu-btn')
+
+if(window.innerWidth > 1000){
     body.style.height = '100vh'
     nav.style.display = 'inline-flex'
-}
-
-if(window.innerWidth < 500){ 
-    nav.style.display = 'inline'
+    menuBtn.style.display = 'none'
+}else{
+    body.style.height = '100vh'
+    if(window.innerWidth < 1000){ 
+        
+        menuBtn.style.display = 'block'
+    }
+    function menuFnc(){
+        nav.style.display = 'none'
+        nav.style.animationName = 'toleft'
+        nav.style.animationDelay = '2s'
+        menuBtn.addEventListener('click', ()=>{
+            menuBtn.innerHTML = "Close"
+            nav.style.display = 'inline'
+            menuBtn.addEventListener('click', ()=>{
+                menuBtn.style.backgroundColor = 'rgb(255, 255, 255)'
+                menuBtn.innerHTML = "Menu"
+                
+                menuFnc()
+            })
+        })
+    }
+    menuFnc()
 }
