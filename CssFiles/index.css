@@ -1,0 +1,42 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+    background-color: rgb(64, 64, 186);
+    color: white;
+    
+}
+.nav{
+    display: inline-flex;
+}
+
+h3{
+    margin: 2rem;
+}
+
+.main-div{
+    margin: 2rem;
+}
+.buttons{
+    margin: 2rem;   
+}
+button{
+    margin: 1.4rem;
+    background-color: rgb(236, 236, 251);
+    border-radius: 3px;
+    border: rgb(155, 155, 248);
+    
+}
+button:disabled{
+    background-color: rgb(127, 127, 158);
+}
+.main-grid{
+    position: relative;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    
+}
+img{
+    width: 300px;
+    margin: 2rem;
+}
