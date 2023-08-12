@@ -39,7 +39,7 @@ body{
             hsl(240deg 82% 77%) 94%,
             hsl(240deg 87% 79%) 100%
           );
-              /* background-repeat: no-repeat; */
+              background-repeat: no-repeat;
               /* /// */
    /* height: 100vh;           */
     width:100% ;
@@ -48,7 +48,8 @@ body{
     padding: 0;
     
     color: white;
-    
+    max-width: 1400px;
+    margin: auto;
 }
 .nav{
     display: inline-flex;
