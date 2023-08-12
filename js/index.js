@@ -14,8 +14,7 @@ if(window.innerWidth > 1000){
     }
     function menuFnc(){
         nav.style.display = 'none'
-        nav.style.animationName = 'toleft'
-        nav.style.animationDelay = '2s'
+       
         menuBtn.addEventListener('click', ()=>{
             menuBtn.innerHTML = "Close"
             nav.style.display = 'inline'

@@ -54,8 +54,7 @@ body{
     
 }
 .nav{
-    animation-name: toleft;
-    animation-duration: 2s;
+    
     box-shadow: 3ch;
     margin-bottom: 2rem;
 }
@@ -90,14 +89,6 @@ h3{
         opacity: 0;
     }to{
         opacity: 1;
-    }
-}
-@keyframes toleft{
-    from{
-        width: 0%;
-    }
-    to{
-        width: 100%;
     }
 }
 
