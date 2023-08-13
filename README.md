@@ -2,8 +2,7 @@
 
 This software is made in vanilla Html,
 Css and JavaScript. 
-The Website and design is made by
-<a href"https://github.com/MohamedAlDeep">MohamedAlDeep</a>
+The Website and design is made by [https://github.com/MohamedAlDeep](MohamedAlDeep)
 
 And the design is inspired by Woof discord bot site
 
